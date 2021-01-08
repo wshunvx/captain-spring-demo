@@ -1,0 +1,16 @@
+server:
+  port: 8101
+  
+spring:
+  profiles:
+    active: test
+  application:
+    name: gen-demo
+
+context:
+  listener:
+    classes: com.gen.auth.swagger.run.SwaggerWebListener
+    
+client:
+  ts: 1598605447750
+  secret: SXmB4gZgSvu6snPp

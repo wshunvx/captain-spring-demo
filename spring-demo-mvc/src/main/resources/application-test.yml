@@ -1,0 +1,15 @@
+eureka:
+  instance:
+    hostName: 127.0.0.1
+    instanceId: "1000100110200002"
+    metadataMap:
+      zone: "1"
+      secret: WBfAb+5cbZm0PqWK5PMAZfGjeWXCzEurwkBbtquwQsAVGe9QHkRriveY6HPI/rPDgVou3Kcq1+v4H0/nFzSbxb8v12RV46SUO9InqjlcWZVvMYvXzOChOc4z9YBOBkhWROyibUgiV9maijl4dAg3YlVM9qkfoiN2xh5IXD0lo6M=
+    appGroupName: localhost
+  client:
+    zone: 001
+    serviceUrl:
+      defaultZone: http://wshunvx:QRVF68VKEV3B830V@127.0.0.1:8761/eureka/
+    preferSameZoneEureka: true
+    healthcheck:
+      enabled: true

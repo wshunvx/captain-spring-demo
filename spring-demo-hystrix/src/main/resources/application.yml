@@ -1,0 +1,12 @@
+server:
+  port: 8100
+  
+spring:
+  profiles:
+    active: test
+  application:
+    name: gen-demo
+  cloud:
+    config:
+      discovery: 
+        enabled: true

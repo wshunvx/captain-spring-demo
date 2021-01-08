@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<groupId>com.gen.demo</groupId>
+		<artifactId>gen-demo</artifactId>
+		<version>0.0.1.SNAPSHOT</version>
+	</parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>spring-demo-mvc</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.wshunvx</groupId>
+            <artifactId>webmvc_adapter</artifactId>
+            <version>1.0.20201210</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.wshunvx</groupId>
+            <artifactId>netflix_netty_http</artifactId>
+            <version>1.0.20201210</version>
+        </dependency>
+    </dependencies>
+    
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
